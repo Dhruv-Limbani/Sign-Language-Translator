@@ -56,7 +56,7 @@ mp_holistic = mp.solutions.holistic  # Holistic Model for detections
 mp_drawing = mp.solutions.drawing_utils # Drawing utilities for drawing detections
 actions = np.array(['hello','thanks','iloveyou'])
 colors = [(245,117,16), (117,245,16), (16,117,245)]
-model = load_model("action.h5")   # my model : actions.h5
+model = load_model("actions.h5")   # my model : actions.h5
 
 st.title('Sign Language Translator')
 
